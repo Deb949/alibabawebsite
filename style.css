@@ -1,0 +1,191 @@
+*{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+header .logo{
+    display: flex;
+    margin-left: 5px;
+}
+.logo form{
+    background-color:orangered;
+   
+    margin: 50px 0px 0px 0px ;
+    border: 1px solid coral;
+    height: 49px;
+    width: 500px;
+    border-radius: 20px;
+    
+}
+
+.logo form input{
+    border: none;
+    height: 49px;
+    width: 350px;
+    border-radius: 20px 0 0 20px;
+    
+
+}
+
+.logo form  span{
+
+color: white;
+    background-color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form input{
+    border: none;
+
+}
+
+
+
+body{
+    margin: 0%;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+#container{
+    margin-left: 20px;
+}
+
+   
+    
+body{
+    background-color: whitesmoke;
+    margin-left: 60px;
+    padding: 40px;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+  
+section{
+    background-color:beige;
+} 
+.container{
+    position: relative;
+    width: 1300px;
+    height: 300px;
+    margin: 50px auto;
+
+}
+.box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background:white;
+}
+.img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    position: relative;
+    justify-content: right;
+}
+
+
+#container{
+    display: flex;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: solid;
+    border-color: whitesmoke;
+    
+}
+
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: rgb(22, 13, 80);
+    color:black;
+    display: flex;
+
+}
+.footer div{
+    text-align: center;
+
+}
+
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+
+}
+.col-2 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+.col-3 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+.col-4 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+.col-5 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+form button{
+    background: orangered;
+    border: 2px solid orangered;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
